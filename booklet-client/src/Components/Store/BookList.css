@@ -1,0 +1,90 @@
+.books-list {
+  display: flex;
+  margin: auto;
+  margin-bottom: 55px;
+  width: 96%;
+}
+
+.book-cover {
+  width: 100px;
+  height: 150px;
+}
+
+.books-list tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-top .book-cover {
+  cursor: pointer;
+  margin: auto;
+  border: 1px solid gold;
+  box-shadow: 0 0 19px -4px #444444;
+}
+
+.book {
+  margin: 0 7px 0 7px;
+}
+
+.book-title p {
+  text-align: center;
+  cursor: default;
+  display: block;
+  width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.book-page-info {
+  float: left;
+  margin: 0 0 15px 20px;
+}
+
+.book-page-nav {
+  float: right;
+  margin: 0 20px 15px 0;
+}
+
+.tip {
+  color: #4b4b4b;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+#loader {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#loader img {
+  width: 135px;
+}
+
+.book-page-nav button {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.book-page-nav button:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.book-page-nav button:disabled,
+.book-page-nav button[disabled] {
+  border: 2px solid #999999;
+  background-color: #cccccc;
+  color: #969595;
+}

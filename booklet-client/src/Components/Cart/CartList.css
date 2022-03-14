@@ -1,0 +1,32 @@
+.cart-view {
+  display: flex;
+}
+
+.cart-items {
+  flex: 0 0 50%;
+}
+
+.cart-items ul {
+  list-style: none;
+}
+
+.checkout-view {
+  background-color: #f3f3f3;
+  height: 100vh;
+  flex: 1;
+}
+
+.checkout-view input {
+  margin: auto;
+  width: 350px;
+}
+
+.checkout-view .btn {
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+.cart-list {
+  text-align: left;
+  margin-top: 50px;
+}

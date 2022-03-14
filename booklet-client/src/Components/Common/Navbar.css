@@ -1,0 +1,7 @@
+.navbar-container {
+  border-bottom: 1px solid #e6e1e6;
+}
+.navbar,
+.navbar-brand {
+  margin-left: 15px;
+}

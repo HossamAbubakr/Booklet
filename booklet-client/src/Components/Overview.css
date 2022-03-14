@@ -1,0 +1,67 @@
+.booklet-list {
+  width: 650px;
+  border-radius: 7px;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 15px auto 15px auto;
+  border: 2px solid #e6e1e6;
+  box-shadow: 0 10px 11px -5px rgba(0, 0, 0, 0.14);
+}
+
+.booklet-list p,
+label {
+  color: #4b4b4b;
+}
+
+.booklet-list-header p {
+  color: #4b4b4b;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 0 3px 0;
+}
+
+.booklet-list-header p + p {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 0 10px 0;
+}
+
+.booklet-list-header {
+  background-color: #f3f3f3;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #e6e1e6;
+  margin-bottom: 15px;
+}
+
+.booklet-list .dashboard img {
+  margin: auto;
+  display: block;
+}
+
+#booklet-logo {
+  width: 30%;
+}
+
+.booklet-list .dashboard p {
+  margin-top: 15px;
+  color: #4b4b4b;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 0 3px 0;
+}
+
+.dashboard-info {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 15px 5px 15px;
+  margin-bottom: 10px;
+}
+
+.dashboard button {
+  margin-bottom: 12px;
+  height: 35px;
+  text-align: center;
+}

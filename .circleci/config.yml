@@ -1,0 +1,33 @@
+orbs: # declare what orbs we are going to use
+  node: circleci/node@5.0.0 # the node orb provides common node-related configuration
+  aws-cli: circleci/aws-cli@2.0.6
+  eb: circleci/aws-elastic-beanstalk@2.0.1
+version: 2.1 # using 2.1 provides access to orbs and other features
+
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - node/install
+      - aws-cli/setup
+      - eb/setup
+      - run:
+          name: install the backend dependencies
+          command: npm run backend:install
+      - run:
+          name: build the backend project
+          command: npm run backend:build
+      - run:
+          name: deploy the backend project
+          command: npm run backend:deploy
+      - run:
+          name: install the frontend dependencies
+          command: npm run frontend:install
+      - run:
+          name: build the frontend project
+          command: npm run frontend:build
+      - run:
+          name: deploy the frontend project
+          command: npm run frontend:deploy

@@ -1,0 +1,16 @@
+{
+	"name": "booklet",
+	"version": "1.0.0",
+	"description": "Booklet, A Full Stack Book Shop",
+	"main": "index.js",
+	"scripts": {
+		"backend:install": "cd booklet-server && npm install",
+		"backend:start": "cd booklet-server && npm start",
+		"backend:deploy": "cd booklet-server && npm run deploy",
+		"frontend:install": "cd booklet-client && npm install",
+		"frontend:start": "cd booklet-client && npm start",
+		"frontend:deploy": "cd booklet-client && npm run deploy"
+	},
+	"author": "Hossam Abubakr",
+	"license": "ISC"
+}

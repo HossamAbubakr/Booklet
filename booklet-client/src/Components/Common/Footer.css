@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  border-top: 1px solid #e6e1e6;
+  background-color: #f8f9fa;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer p {
+  padding-left: 15px;
+  margin-top: auto;
+}
+
+.footer p + p {
+  font-weight: 600;
+}
+
+.footer a {
+  align-self: center;
+}
+
+.footer img {
+  padding-left: 10px;
+  height: 20px;
+}
