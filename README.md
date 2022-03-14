@@ -31,12 +31,12 @@ It demonstrates my understanding of Typescript, NodeJS, Express and React.
 
 ## Technologies
 
-CircleCI was used for the CI/CD.
+CircleCI was used for the CI/CD.   
 NodeJS was used for the runtime.  
 Express was used for the backend.  
 React/TypeScript was used for the frontend.  
 Typescript was used as the programming language.  
-React Context API was used for the state management.
+React Context API was used for the state management.   
 Open Library Book Cover API was used for fetching the book covers.
 
 ## Backend
